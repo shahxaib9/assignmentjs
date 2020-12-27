@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Programs - master</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      color: #222;
+      background-color: #f1f1f1;
+      padding: 1rem 2rem;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    code {
+      text-transform: none;
+      color: #222;
+    }
+
+    .title {
+      margin-bottom: 0.35rem;
+    }
+
+    .current-branch {
+      margin-bottom: 1.25rem;
+    }
+
+    .current-branch-title {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #555;
+    }
+
+    .git-command {
+      margin-bottom: 0.5rem;
+    }
+
+    .branch-list {
+      margin-left: 3.5rem;
+    }
+
+    .branch-list-item {
+      margin-bottom: 0.75rem;
+    }
+
+    .branch-list-item-name {
+      font-weight: bold;
+    }
+
+    .branch-list-item-program {
+      font-weight: 0.9rem;
+      color: #333;
+    }
+  </style>
+  <body>
+    <h1 class="title">Assignment Programs</h1>
+
+    <p class="current-branch">
+      <span class="current-branch-title">Current Branch: &nbsp;</span>
+      <strong>
+        <code>master</code>
+      </strong>
+    </p>
+
+    <p>Switch to one of the following branches for the respective program.</p>
+    <p class="git-command">
+      <code>(<strong>git</strong> checkout &lt;branch_name&gt;)</code>
+    </p>
+
+    <ul class="branch-list">
+      <li class="branch-list-item">
+        <code class="branch-list-item-name">Program01</code>
+        <p class="branch-list-item-program">
+          Convert temperature from Celsius to Fahrenheit.
+        </p>
+      </li>
+      <li class="branch-list-item">
+        <code class="branch-list-item-name">Program02</code>
+        <p class="branch-list-item-program">Convert Inches into Centimeters.</p>
+      </li>
+      <li class="branch-list-item">
+        <code class="branch-list-item-name">Program03</code>
+        <p class="branch-list-item-program">
+          Checks if the average is greater than 80.
+        </p>
+      </li>
+      <li class="branch-list-item">
+        <code class="branch-list-item-name">Program04</code>
+        <p class="branch-list-item-program">
+          Checks whether number is Even or Odd.
+        </p>
+      </li>
+    </ul>
+
+    <script src="main.js"></script>
+  </body>
+</html>
